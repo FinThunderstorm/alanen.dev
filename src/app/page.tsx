@@ -35,12 +35,15 @@ const Home = () => {
             Trainee Software Developer
           </span>{" "}
           at{" "}
-          <a className="text-green-500" href="https://digia.com/en/">
+          <a
+            className="text-green-500 hover:underline"
+            href="https://digia.com/en/"
+          >
             Digia Plc
           </a>
           . My past work history is available on my{" "}
           <a
-            className="text-green-500"
+            className="text-green-500 hover:underline"
             href="https://www.linkedin.com/in/tuomasalanen/"
           >
             LinkedIn profile
@@ -68,24 +71,27 @@ const Home = () => {
         <h2>🏃🏻‍♂️ You can find me on</h2>
         <div className="flex flex-row gap-2">
           <a
-            className="text-green-500"
+            className="text-green-500 hover:underline"
             href="https://www.linkedin.com/in/tuomasalanen/"
           >
             linkedin
           </a>
           <a
-            className="text-green-500"
+            className="text-green-500 hover:underline"
             href="https://github.com/FinThunderstorm"
           >
             github
           </a>
           <a
-            className="text-green-500"
+            className="text-green-500 hover:underline"
             href="https://twitter.com/finthunderstorm"
           >
             twitter
           </a>
-          <a className="text-green-500" href="mailto:tuomas@alanen.dev">
+          <a
+            className="text-green-500 hover:underline"
+            href="mailto:tuomas@alanen.dev"
+          >
             email
           </a>
         </div>
