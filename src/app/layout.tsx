@@ -35,7 +35,7 @@ export default function RootLayout({
             </h1>
           </Link>
         </div>
-        <div className="container mx-auto py-10">{children}</div>
+        <div className="container mx-auto py-10 px-5">{children}</div>
       </body>
     </html>
   )
