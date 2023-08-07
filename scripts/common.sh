@@ -2,7 +2,7 @@
 readonly repo="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && cd .. && pwd)"
 
 function check_node_version() {
-    pushd "$repository"
+    pushd "$repo"
     echo "::debug::Setting up right Node version"
 
     # This will use always repo provided nvm if nvm is not in PATH etc.
@@ -22,7 +22,7 @@ function required_command() {
 }
 
 function npm_ci() {
-    pushd "$repository"
+    pushd "$repo"
     echo "::debug::Installing dependencies with npm ci"
 
     required_command shasum

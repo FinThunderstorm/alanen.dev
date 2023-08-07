@@ -1,12 +1,12 @@
 {
   "name": "alanen.dev",
   "version": "0.1.0",
+  "author": "Tuomas Alanen <tuomas@alanen.dev>",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
     "@types/node": "20.4.8",
