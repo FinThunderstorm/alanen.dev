@@ -2,7 +2,7 @@ const Home = () => {
   return (
     <main className="font-sans">
       <div className="py-2">
-        <p>👋🏻 Hi over there, my name is </p>
+        <p className="font-thin text-large">👋🏻 Hi over there, my name is </p>
         <h1 className="font-serif font-semibold text-6xl uppercase text-green-500">
           Tuomas Alanen.
         </h1>
@@ -34,8 +34,11 @@ const Home = () => {
           <span className="font-bold text-green-500">
             Trainee Software Developer
           </span>{" "}
-          at <a href="https://digia.com/en/">Digia Plc</a>. My past work history
-          is available on my{" "}
+          at{" "}
+          <a className="text-green-500" href="https://digia.com/en/">
+            Digia Plc
+          </a>
+          . My past work history is available on my{" "}
           <a
             className="text-green-500"
             href="https://www.linkedin.com/in/tuomasalanen/"
@@ -45,7 +48,11 @@ const Home = () => {
           .
         </p>
         <p>
-          📖 I'm Bachelor of Computer Science Student at University of Helsinki.
+          📖 I'm{" "}
+          <span className="font-bold text-green-500">
+            Bachelor of Computer Science Student
+          </span>{" "}
+          at University of Helsinki.
         </p>
         <p>
           🐴 My main work horses are TypeScript, SQL, Node.js, Python, Bash,
