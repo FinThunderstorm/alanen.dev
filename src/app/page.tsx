@@ -3,7 +3,7 @@ const Home = () => {
     <main className="font-sans">
       <div className="py-2">
         <p className="font-thin text-large">👋🏻 Hi over there, my name is </p>
-        <h1 className="font-serif font-semibold text-6xl uppercase text-green-500">
+        <h1 className="font-serif font-semibold text-6xl uppercase neon-text py-1">
           Tuomas Alanen.
         </h1>
         <p className="text-2xl font-semibold">

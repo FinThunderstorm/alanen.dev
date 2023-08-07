@@ -30,7 +30,7 @@ export default function RootLayout({
       <body className="font-sans bg-slate-100 text-black dark:bg-zinc-900 dark:text-white">
         <div className="py-2 px-5">
           <Link href="/">
-            <h1 className="font-serif text-green-500 uppercase text-3xl">
+            <h1 className="font-serif neon-text uppercase text-3xl">
               alanen.dev
             </h1>
           </Link>
